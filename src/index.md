@@ -1,1 +1,1 @@
-'# Hello MyDocs!' 
+'## Welcome to MyDocs!' 
