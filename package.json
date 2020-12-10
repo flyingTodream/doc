@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "dumi dev",
+    "build": "dumi build && git add . && git commit -m 'c' && git push && cp ./public/index.html ./dist && cp .//dist//* F://Docs//flyingTodream.github.io//doc -r && cd F://Docs//flyingTodream.github.io && git add . && git commit -m 'c' && git push",
+    "push": "cp .//dist//* F://Docs//flyingTodream.github.io//doc -r && cd F://Docs//flyingTodream.github.io && git add . && git commit -m 'c' && git push",
+	"commit":"cd F://Docs//flyingTodream.github.io && git add . && git commit -m 'c' && git push"
+	
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dumi": "^1.0.38"
+  }
+}
